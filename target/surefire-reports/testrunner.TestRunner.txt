@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: testrunner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 3.067 sec <<< FAILURE!
+Verify User is able to login with correct credentials(LOGIN)  Time elapsed: 2.187 sec  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "this.driver" is null
+	at stepdef.Stepdef.user_opens_url(Stepdef.java:34)
+	at ✽.User opens url "https://app.mittarv.com/"(file:///C:/Users/tusha/eclipse-workspace/mittarv-cucumber-automation/./Features/login.feature:24)
+
